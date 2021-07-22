@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+         
+  <servlet>
+	 <servlet-name>UserServlet</servlet-name>
+	 <servlet-class>com.user.controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	 <servlet-name>UserServlet</servlet-name>
+	 <url-pattern>/addUser</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+	 <servlet-name>ViewServelet</servlet-name>
+	 <servlet-class>com.user.controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	 <servlet-name>ViewServelet</servlet-name>
+	 <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>UpdateUserServelet</servlet-name>
+	<servlet-class>com.user.controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>UpdateUserServelet</servlet-name>
+	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+</web-app>
